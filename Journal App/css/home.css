@@ -1,0 +1,11 @@
+body {
+    background-color: #b0e0c5;
+  font-family: sans-serif;
+    color: #0a0a0a;
+    font-size: 30px; 
+  }
+  .active{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px; 
+    color: rgb(16, 16, 17);
+  }

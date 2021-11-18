@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Style Sheet -->
+    <link type="text/css" rel="stylesheet" href="../css/todo.css">
+<section class="container">
+  
+    <h1>To-Do List ✅ </h1> 
+    <div class="new-task-container box">
+    <label for="new-task">Add New Task</label>
+    <input type="text" id="new-task">
+      <button id="addTask">Add Task</button>
+    </div>
+    
+    <div class="todo-list box">
+      <h2>Incomplete Tasks</h2>
+      <ul>
+        <li><input type="checkbox"><label>Do Laundry</lable></li>
+        <li><input type="checkbox"><label>Make Dentist appointment</lable></li>
+        <li><input type="checkbox"><label>Study for exam</lable></li>
+      </ul> 
+    </div>
+    
+    <div class="complete-list box"> 
+      <h2>Completed Tasks</h2>
+      <ul>
+        <li>pay bills <button class="delete">Delete</button></li>
+      </ul>  
+    </div> 
+  </section>
+  <script src="../js/todo.js"></script>
+</body>
+</html>
